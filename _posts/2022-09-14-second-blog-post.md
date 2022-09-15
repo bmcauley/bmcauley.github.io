@@ -11,4 +11,4 @@ I feel like what I learned had more to do with personal competencies. For exampl
 
 What I would do differently is code and test in a R script file before I add the code to the Markdown file. I ended up having to do that for some of the function definitions anyway, but it would've made my life easier if I had all of the data and variables in my environment... What I actually did was make dummy variables and data as I went along, which took up a lot more time than it needed to. Belatedly, I realized I could've just copied everything I had in the Markdown, but I was more focused on making things work and trying to wrap my head around what was being asked in the instructions.
 
-Regardless, here is the [final product]([url](https://bmcauley.github.io/project1_benne.html))!
+Regardless, here is the [final product](https://bmcauley.github.io/project1_benne.html)!
