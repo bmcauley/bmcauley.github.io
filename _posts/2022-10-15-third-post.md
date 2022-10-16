@@ -6,9 +6,14 @@ When doing EDA, my overall goal is to determine the underlying structure of the 
 
 **_What methods do you think are important?_**
 
-Generally, I always make use of the following methods for EDA and believe they are fundamental to the start of any data project:
+Generally, I always make use of the following methods for EDA and believe they are fundamental to the start of _any_ data project:
 - Printing the first 5-10 rows - Simple, and provides a quick look at the layout of the data, the variable types, and how the values are represented
+- Five-number summary - Another simple method to see what might be "typical" in a variable
+- Boxplots - A visual representation of the five-number summary, with the added benefit that outliers can be seen (if any)
 - Histograms/bar plots - For distributions and patterns of variables; absolutely no reason _not_ to include it
+- Contingency tables - If categorical variables are present, there might be some interesting associations to be uncovered between values of these variables. Just having a count is also helpful
+- Scatter plots - Identifies the strength, direction, and shape of relationships between variables, also pretty non-negotiable to include
+- Correlation matrices - Provides the values for strength in correlation, which I really like! I will admit, however, it does fall short since it assumes linear relationships, so it's not always the most useful. I'm biased, I really like measuring correlation.
 
 **_What things do you try to look for?_**
 
