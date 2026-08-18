@@ -1,9 +1,10 @@
 .author__avatar,
 .author__name {
-  pointer-events: none;   /* disables clicking */
-  cursor: default;        /* removes the link cursor */
+  pointer-events: none;
+  cursor: default;
 }
 
-body {
-  background: hotpink !important;
+.author__name {
+  text-decoration: none !important;
+  color: inherit;
 }
