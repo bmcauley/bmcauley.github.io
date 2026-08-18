@@ -1,10 +1,10 @@
-title: "Bennett's Assignment Blog"
+title: "Portfolio & Profile"
 author: "Bennett McAuley"
-description: "This sentence is false." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Bennett's Portfolio" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "jdmcaule@ncsu.edu"
+email: "bennettmcauley@gmail.com"
 #twitter_username: "twitteruser"
 github_username: "bmcauley"
 linkedin_username: "bennett-mcauley"
@@ -29,6 +29,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-include-cache
 
 titles_from_headings:
   strip_title: true
