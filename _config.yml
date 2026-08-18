@@ -18,13 +18,14 @@ plugins:
 # Author
 author:
   name: "Bennett McAuley"
-  avatar: "/assets/images/my_notion_face_transparent.png"
+  avatar: "assets/images/my-notion-face-transparent.png"
   bio: "Born to be an overthinker, trained to be a statistician, proven to be an advocate for all."
   location: "RTP, NC"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/"
+  uri: ""
 
 # Navigation
 nav:
