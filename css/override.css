@@ -3,3 +3,7 @@
   pointer-events: none;   /* disables clicking */
   cursor: default;        /* removes the link cursor */
 }
+
+body {
+  background: hotpink !important;
+}
