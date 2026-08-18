@@ -1,4 +1,4 @@
-title: "Bennett McAuley"
+title: ""
 description: "A constellation of projects, analytics, and process design."
 remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 minimal_mistakes_skin: "mint"
@@ -18,7 +18,7 @@ plugins:
 # Author
 author:
   name: "Bennett McAuley"
-  bio: "HRIS/People Ops hybrid analyst, cosmic druid, Markdown wizard."
+  bio: "Born to be an overthinker, trained to be a statistician, proven to be an advocate for all."
 
 # Navigation
 nav:
@@ -26,8 +26,6 @@ nav:
     url: "/"
   - title: "Projects"
     url: "/projects/"
-  - title: "Blog"
-    url: "/blog/"
   - title: "About"
     url: "/about/"
 
