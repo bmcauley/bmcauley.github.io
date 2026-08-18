@@ -3,4 +3,4 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "override";  // load custom CSS
+@import "override";  // load custom (S)CSS
