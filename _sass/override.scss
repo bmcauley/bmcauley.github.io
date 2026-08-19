@@ -24,11 +24,11 @@
 /* Category button */
 .skill-category {
   width: 100%;
-  background: #6a4bc3; /* main cosmic purple */
+  background: #4bc3ad;
   color: #fff;
   padding: 14px 18px;
   border-radius: 10px;
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -51,18 +51,18 @@
 
 /* Individual skill buttons */
 .skill-btn {
-  background: #8a6be8; /* lighter shade */
+  background: #6be8e0;
   color: #fff;
   padding: 8px 14px;
   border-radius: 8px;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
 /* Hover effect */
 .skill-btn:hover {
-  background: #a58cf0;
+  background: #8cf0e4;
   transform: translateY(-2px);
 }
