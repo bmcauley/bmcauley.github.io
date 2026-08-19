@@ -23,6 +23,8 @@ header:
     <div class="skill-btn">Process Design & Implementation</div>
     <div class="skill-btn">Data Integrity Auditing</div>
   </div>
+  
+  <br>
 
   <!-- Analytics & Statistics -->
   <div class="skill-category">
@@ -38,6 +40,8 @@ header:
     <div class="skill-btn">Data Storytelling</div>
   </div>
 
+  <br>
+
  <!-- Program & Project Leadership -->
   <div class="skill-category">
     <i class="fa-solid fa-list-check"></i>
@@ -51,6 +55,8 @@ header:
     <div class="skill-btn">Effective Communication</div>
     <div class="skill-btn">Project Planning & Proposals</div>
   </div>
+
+  <br>
 
   <!-- Knowledge Management -->
   <div class="skill-category">
@@ -66,6 +72,8 @@ header:
     <div class="skill-btn">Technical Writing & Editing</div>
   </div>
 
+  <br>
+
   <!-- EX -->
   <div class="skill-category">
     <i class="fa-solid fa-users-line"></i>
@@ -79,6 +87,8 @@ header:
     <div class="skill-btn">Retention Strategy</div>
     <div class="skill-btn">Psychological Safety</div>
   </div>
+
+  <br>
 
     <!-- Interpersonal & Social -->
   <div class="skill-category">

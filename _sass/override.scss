@@ -28,7 +28,7 @@
   color: #fff;
   padding: 14px 18px;
   border-radius: 10px;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -52,11 +52,11 @@
 /* Individual skill buttons */
 .skill-btn {
   background: #6be8e0;
-  color: #fff;
+  color: #000000;
   padding: 8px 14px;
   border-radius: 8px;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   transition: background 0.2s ease, transform 0.2s ease;
 }
