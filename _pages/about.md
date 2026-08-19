@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: "/about/"
+permalink: /about/
 author_profile: true
 title: "About Me"
 header:

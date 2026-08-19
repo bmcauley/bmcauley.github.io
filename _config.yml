@@ -42,6 +42,12 @@ collections:
     output: true
     permalink: /projects/:name/
 
+# Pages
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
 # Defaults
 defaults:
   - scope:
