@@ -32,7 +32,7 @@ en: &DEFAULT_EN
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
-  recent_posts               : "Recent posts"
+ # recent_posts               : "Recent posts"
   undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "Your email address will not be published. Required fields are marked"
   comment_form_comment_label : "Comment"
@@ -170,105 +170,6 @@ fr-BE:
   <<: *DEFAULT_FR
 fr-CH:
   <<: *DEFAULT_FR
-
-# Portuguese
-# ----------
-pt: &DEFAULT_PT
-  skip_links                 :
-  skip_primary_nav           :
-  skip_content               :
-  skip_footer                :
-  page                       : "Página"
-  pagination_previous        : "Anterior"
-  pagination_next            : "Seguinte"
-  breadcrumb_home_label      : "Início"
-  breadcrumb_separator       : "/"
-  menu_label                 :
-  search_label               :
-  toc_label                  : "Nesta Página"
-  ext_link_label             : "Link Direto"
-  less_than                  : "menos de"
-  minute_read                : "minutos de leitura"
-  share_on_label             : "Partilhar no"
-  meta_label                 :
-  tags_label                 : "Etiquetas:"
-  categories_label           : "Categorias:"
-  date_label                 : "Atualizado:"
-  comments_label             : "Deixe um Comentário"
-  comments_title             : "Comentários"
-  more_label                 : "Saber mais"
-  related_label              : "Também pode gostar de"
-  follow_label               : "Siga:"
-  feed_label                 : "Feed"
-  powered_by                 : "Feito com"
-  website_label              : "Site"
-  email_label                : "Email"
-  recent_posts               : "Artigos Recentes"
-  undefined_wpm              : "Parâmetro words_per_minute não definido em _config.yml"
-  comment_form_info          : "O seu endereço email não será publicado. Os campos obrigatórios estão assinalados"
-  comment_form_comment_label : "Comentário"
-  comment_form_md_info       : "Markdown é suportado."
-  comment_form_name_label    : "Nome"
-  comment_form_email_label   : "Endereço Email"
-  comment_form_website_label : "Site (opcional)"
-  comment_btn_submit         : "Sumbeter Comentário"
-  comment_btn_submitted      : "Submetido"
-  comment_success_msg        : "Obrigado pelo seu comentário! Será visível no site logo que aprovado."
-  comment_error_msg          : "Lamento, ocorreu um erro na sua submissão. Por favor verifique se todos os campos obrigatórios estão corretamente preenchidos e tente novamente."
-  loading_label              : "A carregar..."
-  search_label_text          :
-  search_algolia_no_results  :
-pt-PT:
-  <<: *DEFAULT_PT
-# Brazilian Portuguese
-pt-BR:
-  skip_links                 : "Pular links"
-  skip_primary_nav           : "Pular para navegação primária"
-  skip_content               : "Pular para conteúdo"
-  skip_footer                : "Pular para rodapé"
-  page                       : "Página"
-  pagination_previous        : "Anterior"
-  pagination_next            : "Próxima"
-  breadcrumb_home_label      : "Início"
-  breadcrumb_separator       : "/"
-  menu_label                 : "Chavear menu"
-  search_label               : "Chavear busca"
-  toc_label                  : "Nesta página"
-  ext_link_label             : "Link direto"
-  less_than                  : "menos de"
-  minute_read                : "minuto(s) de leitura"
-  share_on_label             : "Compartilhe"
-  meta_label                 :
-  tags_label                 : "Tags:"
-  categories_label           : "Categorias:"
-  date_label                 : "Atualizado em:"
-  comments_label             : "Deixe um comentário"
-  comments_title             : "Comentários"
-  more_label                 : "Saiba mais"
-  related_label              : "Talvez você também goste"
-  follow_label               : "Siga:"
-  feed_label                 : "Feed"
-  powered_by                 : "Desenvolvido com"
-  website_label              : "Site"
-  email_label                : "E-mail"
-  recent_posts               : "Publicações recentes"
-  undefined_wpm              : "Parâmetro words_per_minute não definido em _config.yml"
-  comment_form_info          : "Seu e-mail não será publicado. Os campos obrigatórios estão marcados"
-  comment_form_comment_label : "Comentário"
-  comment_form_md_info       : "Você pode usar Markdown."
-  comment_form_name_label    : "Nome"
-  comment_form_email_label   : "E-mail"
-  comment_form_website_label : "Site (opcional)"
-  comment_btn_submit         : "Enviar comentário"
-  comment_btn_submitted      : "Enviado"
-  comment_success_msg        : "Obrigado pelo seu comentário! Ele aparecerá no site assim que for aprovado."
-  comment_error_msg          : "Desculpe, ocorreu um erro no envio. Verifique se todos os campos obrigatórios foram preenchidos e tente novamente."
-  loading_label              : "Carregando..."
-  search_label_text          : "Digite seu termo de busca..."
-  search_placeholder_text    : "Digite seu termo de busca..."
-  search_algolia_no_results  : "Nenhum resultado"
-  results_found              : "Resultado(s) encontrado(s)"
-  back_to_top                : "Voltar para o topo"
 
 # Italian
 # -------
@@ -595,58 +496,6 @@ ru: &DEFAULT_RU
   results_found              : "Найдено"
 ru-RU:
   <<: *DEFAULT_RU
-
-# Greek
-# -----
-gr: &DEFAULT_GR
-  skip_links                 :
-  skip_primary_nav           :
-  skip_content               :
-  skip_footer                :
-  page                       : "Σελίδα"
-  pagination_previous        : "Προηγούμενo"
-  pagination_next            : "Επόμενo"
-  breadcrumb_home_label      : "Αρχική"
-  breadcrumb_separator       : "/"
-  menu_label                 : "Μενού"
-  search_label               :
-  toc_label                  : "Περιεχόμενα"
-  ext_link_label             : "Εξωτερικός Σύνδεσμος"
-  less_than                  : "Λιγότερο από"
-  minute_read                : "λεπτά ανάγνωσης"
-  share_on_label             : "Μοιραστείτε το"
-  meta_label                 :
-  tags_label                 : "Ετικέτες:"
-  categories_label           : "Κατηγορίες:"
-  date_label                 : "Ενημερώθηκε:"
-  comments_label             : "Αφήστε ένα σχόλιο"
-  comments_title             : "Σχόλια"
-  more_label                 : "Διάβαστε περισσότερα"
-  related_label              : "Σχετικές αναρτήσεις"
-  follow_label               : "Ακολουθήστε:"
-  feed_label                 : "RSS Feed"
-  powered_by                 : "Δημιουργήθηκε με"
-  website_label              : "Ιστοσελίδα"
-  email_label                : "Email"
-  recent_posts               : "Τελευταίες αναρτήσεις"
-  undefined_wpm              : "Δεν έχει οριστεί η παράμετρος words_per_minute στο αρχείο _config.yml"
-  comment_form_info          : "Η διεύθυνση email σας δεν θα δημοσιευθεί. Τα απαιτούμενα πεδία εμφανίζονται με αστερίσκο"
-  comment_form_comment_label : "Σχόλιο"
-  comment_form_md_info       : "Το πεδίο υποστηρίζει Markdown."
-  comment_form_name_label    : "Όνομα"
-  comment_form_email_label   : "Διεύθυνση email"
-  comment_form_website_label : "Ιστοσελίδα (προαιρετικό)"
-  comment_btn_submit         : "Υπόβαλε ένα σχόλιο"
-  comment_btn_submitted      : "Έχει υποβληθεί"
-  comment_success_msg        : "Ευχαριστούμε για το σχόλιό σας! Θα εμφανιστεί στην ιστοσελίδα αφού εγκριθεί."
-  comment_error_msg          : "Λυπούμαστε, παρουσιάστηκε σφάλμα με την υποβολή σας. Παρακαλούμε βεβαιωθείτε ότι έχετε όλα τα απαιτούμενα πεδία συμπληρωμένα και δοκιμάστε ξανά."
-  loading_label              : "Φόρτωση..."
-  search_label_text          :
-  search_placeholder_text    : "Εισάγετε όρο αναζήτησης..."
-  search_algolia_no_results  :
-  results_found              : "Αποτελέσματα"
-gr-GR:
-  <<: *DEFAULT_GR
 
 # Japanese
 # --------

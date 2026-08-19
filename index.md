@@ -6,8 +6,12 @@ header:
   image: "/assets/images/Portfolio_Banner.png"
 ---
 
+<div class="skills-buttons">
+  <a class="skill-btn">HR Systems</a>
+  <a class="skill-btn">Projects</a>
+  <a class="skill-btn">Nerd Stats</a>
+</div>
 
-{% include callout.html content="This is my callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="primary" %} 
 
 Skills
 

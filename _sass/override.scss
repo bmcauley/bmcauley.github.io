@@ -15,3 +15,19 @@
   text-decoration: none !important;
   color: inherit !important;
 }
+
+.skill-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 6px;
+  background: #6a4bc3; /* cosmic purple */
+  color: #fff !important;
+  border-radius: 8px;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.skill-btn:hover {
+  background: #8a6be8;
+}
