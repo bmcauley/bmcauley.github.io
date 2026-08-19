@@ -7,8 +7,7 @@ header:
 ---
 
 
-A simple info alert **check it out!**
-{: #myid .alert .alert-info .p-3 .mx-2 mb-3}
+{% include callout.html content="This is my callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="primary" %} 
 
 Skills
 
