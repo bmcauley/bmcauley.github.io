@@ -1,8 +1,8 @@
 ---
-layout: pages
+layout: page
 permalink: /about/
 author_profile: true
-title: "Bennett's Portfolio"
+title: "About Me"
 header:
   image: "/assets/images/Portfolio_Banner.png"
 ---
