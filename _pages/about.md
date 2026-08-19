@@ -1,5 +1,6 @@
 ---
 layout: page
+permalink: "/about/"
 author_profile: true
 title: "About Me"
 header:
