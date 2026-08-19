@@ -31,10 +31,10 @@ author:
 nav:
   - title: "Home"
     url: "/"
-  - title: "Projects"
-    url: "/projects/"
   - title: "About"
     url: "/about/"
+  - title: "Projects"
+    url: "/projects/"
 
 # Collections
 collections:
