@@ -6,20 +6,39 @@ header:
   image: "/assets/images/Portfolio_Banner.png"
 ---
 
-<div class="skills-buttons">
-  <a class="skill-btn">HR Systems</a>
-  <a class="skill-btn">Projects</a>
-  <a class="skill-btn">Nerd Stats</a>
+# Skills
+
+<div class="skill-section">
+
+  <!-- HR Systems -->
+  <div class="skill-category">
+    <i class="fa-solid fa-table"></i>
+    <span class="skill-label">HR Systems</span>
+  </div>
+
+  <div class="skill-buttons">
+    <div class="skill-btn">Confidential Data Stewardship</div>
+    <div class="skill-btn">Platform Administration</div>
+    <div class="skill-btn">Workflow Optimization</div>
+    <div class="skill-btn">Process Design & Implementation</div>
+    <div class="skill-btn">Data Integrity Auditing</div>
+  </div>
+
+  <!-- Analytics & Statistics -->
+  <div class="skill-category">
+    <span class="skill-icon">📊</span>
+    <span class="skill-label">Analytics & Statistics</span>
+  </div>
+
+  <div class="skill-buttons">
+    <div class="skill-btn">Statistical Programming</div>
+    <div class="skill-btn">Advanced Analytics</div>
+    <div class="skill-btn">Survey Research & Design</div>
+    <div class="skill-btn">Dashboard Development</div>
+    <div class="skill-btn">Data Storytelling</div>
+  </div>
+
 </div>
-
-
-Skills
-
-HR Systems
-**`Confidential Data Stewardship`**  **`Platform Administration`**  **`Workflow Optimization`**  **`Process Design & Implementation`**  **`Data Integrity Auditing`**
-
-Analytics & Statistics
-**`Statistical Programming`**  **`Advanced Analytics`**  **`Survey Research & Design`**  **`Dashboard Development`**  **`Data Storytelling`**
 
 Program & Project Leadership
 **`Cross-functional Collaboration`**  **`Strategic Planning`**  **`Stakeholder Management`**  **`Effective Communication`**  **`Project Planning & Proposals`**
