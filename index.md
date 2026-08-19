@@ -6,4 +6,26 @@ header:
   image: "/assets/images/Portfolio_Banner.png"
 ---
 
-Hi, this is content :)
+
+A simple info alert **check it out!**
+{: #myid .alert .alert-info .p-3 .mx-2 mb-3}
+
+Skills
+
+HR Systems
+**`Confidential Data Stewardship`**  **`Platform Administration`**  **`Workflow Optimization`**  **`Process Design & Implementation`**  **`Data Integrity Auditing`**
+
+Analytics & Statistics
+**`Statistical Programming`**  **`Advanced Analytics`**  **`Survey Research & Design`**  **`Dashboard Development`**  **`Data Storytelling`**
+
+Program & Project Leadership
+**`Cross-functional Collaboration`**  **`Strategic Planning`**  **`Stakeholder Management`**  **`Effective Communication`**  **`Project Planning & Proposals`**
+
+Knowledge Management
+**`Documentation Systems`**  **`SOP Development`**  **`Technical Writing & Editing`**  **`Workshop Facilitation`**  **`AI & Data Literacy`**
+
+Employee Experience & Culture
+**`Program Governance`**  **`Onboarding`**  **`Curriculum Design`**  **`Proactive Engagement`**  **`Retention Strategy`**
+
+Interpersonal & Social
+**`Advocacy & Support`** **`Conflict Resolution`** **`Difficult Conversations`** **`Empathy & Emotional Intelligence`** **`Empowerment`**
