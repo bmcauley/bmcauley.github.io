@@ -30,10 +30,17 @@
 
 .sidebar {
   display: none !important;
-  width: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
 }
+
+.author-sidebar {
+  display: block !important;
+  width: 300px; /* adjust as you like */
+  position: sticky;
+  top: 2rem;
+  float: left;
+  margin-right: 2rem;
+}
+
 
 /* Make the content column full-width */
 .page,
