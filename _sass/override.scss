@@ -6,8 +6,8 @@
 
 
 /* Remove recent posts */
-.home .page__content .entries {
-  display: none;
+.home .entries {
+  display: none !important;
 }
 
 
@@ -22,6 +22,14 @@
   text-decoration: none !important;
   color: inherit !important;
 }
+
+
+/* Increase width of content */
+.page__inner-wrap,
+.page__content {
+  max-width: 1400px;
+}
+
 
 /* Container spacing */
 .skill-section {
