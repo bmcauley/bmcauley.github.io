@@ -59,6 +59,7 @@ defaults:
       layout: single
       author_profile: true
       published: false
+      sidebar: false
 
   - scope:
       path: ""
@@ -66,6 +67,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar: false
 
   - scope:
       path: ""
