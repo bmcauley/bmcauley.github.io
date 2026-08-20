@@ -29,17 +29,20 @@
 }
 
 .sidebar {
-  display: none !important;
+  visibility: hidden;
 }
 
 .author-sidebar {
-  display: block !important;
-  width: 300px; /* adjust as you like */
+  visibility: visible !important;
+}
+
+
+.author-sidebar {
+  width: 300px;
   position: sticky;
   top: 2rem;
-  float: left;
-  margin-right: 2rem;
 }
+
 
 
 /* Make the content column full-width */
