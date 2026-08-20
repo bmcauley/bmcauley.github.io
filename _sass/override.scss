@@ -4,6 +4,13 @@
   cursor: default;
 }
 
+
+/* Remove recent posts */
+.home .page__content .entries {
+  display: none;
+}
+
+
 .sidebar .author__name {
   text-decoration: none !important;
   color: inherit !important;
