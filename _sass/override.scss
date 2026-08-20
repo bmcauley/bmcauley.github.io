@@ -38,7 +38,6 @@
 /* Category button */
 .skill-category {
   width: 100%;
-  background: #4bc3ad;
   color: #000000 !important;
   padding: 14px 18px;
   border-radius: 10px;
@@ -65,7 +64,6 @@
 
 /* Individual skill buttons */
 .skill-btn {
-  background: #6be8e0;
   color: #000000 !important;
   padding: 8px 14px;
   border-radius: 8px;
@@ -77,6 +75,27 @@
 
 /* Hover effect */
 .skill-btn:hover {
-  background: #8cf0e4;
   transform: translateY(-2px);
+  filter: saturate(1.2);
 }
+
+:root {
+  --total-categories: 5; /* change this if you add more */
+}
+
+/* Assign index automatically */
+.skill-section:nth-of-type(n) {
+  --index: calc(n - 1);
+}
+
+/* Category button color */
+.skill-category {
+  --hue: calc(360 * var(--index) / var(--total-categories));
+  background: hsl(var(--hue), 60%, 50%);
+}
+
+/* Skill buttons use a lighter shade of the same hue */
+.skill-btn {
+  background: hsl(var(--hue), 60%, 70%);
+}
+
