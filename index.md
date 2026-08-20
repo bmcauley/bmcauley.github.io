@@ -24,6 +24,10 @@ header:
     <div class="skill-btn">Data Integrity Auditing</div>
   </div>
 
+</div>
+
+
+<div class="skill-section">
 
   <!-- Analytics & Statistics -->
   <div class="skill-category">
@@ -39,6 +43,10 @@ header:
     <div class="skill-btn">Data Storytelling</div>
   </div>
 
+</div>
+
+
+<div class="skill-section">
 
  <!-- Program & Project Leadership -->
   <div class="skill-category">
@@ -54,6 +62,10 @@ header:
     <div class="skill-btn">Project Planning & Proposals</div>
   </div>
 
+</div>
+
+
+<div class="skill-section">
 
   <!-- Knowledge Management -->
   <div class="skill-category">
@@ -69,6 +81,10 @@ header:
     <div class="skill-btn">Technical Writing & Editing</div>
   </div>
 
+</div>
+
+
+<div class="skill-section">
 
   <!-- EX -->
   <div class="skill-category">
@@ -84,6 +100,10 @@ header:
     <div class="skill-btn">Psychological Safety</div>
   </div>
 
+</div>
+
+
+<div class="skill-section">
 
   <!-- Interpersonal & Social -->
   <div class="skill-category">
