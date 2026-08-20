@@ -4,7 +4,6 @@
   cursor: default;
 }
 
-
 /* Remove recent posts */
 .home .entries {
   display: none !important;
@@ -22,27 +21,10 @@
   color: inherit !important;
 }
 
-.sidebar {
-  width: 300px;
-  float: left;
-}
-
-.page-sidebar-content {
-  display: none;
-}
-
 .author-sidebar {
   position: sticky;
   top: 2rem;
 }
-
-/* Make the content column full-width */
-.page,
-.archive {
-  margin-left: 300px;
-  max-width: none;
-}
-
 
 .page__footer .page__nav {
   display: none !important;
