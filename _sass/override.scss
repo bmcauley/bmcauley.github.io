@@ -23,13 +23,19 @@
   color: inherit !important;
 }
 
-
-/* Increase width of content */
-.container,
-.page__inner-wrap,
-.page__content {
+/* widening usable space*/
+.layout--home .container,
+.layout--home .page__inner-wrap,
+.layout--home .page__content {
   max-width: 1400px !important;
 }
+
+.layout--single .container,
+.layout--single .page__inner-wrap,
+.layout--single .page__content {
+  max-width: 1400px !important;
+}
+
 
 .page__footer .page__nav {
   display: none !important;
