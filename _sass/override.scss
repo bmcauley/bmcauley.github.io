@@ -10,7 +10,6 @@
   display: none !important;
 }
 
-
 .sidebar .author__name {
   text-decoration: none !important;
   color: inherit !important;
@@ -23,27 +22,18 @@
   color: inherit !important;
 }
 
-/* Disable the sidebar grid entirely */
-#main {
-  display: block !important;
-}
-
 .sidebar {
   visibility: hidden;
+  width: 300px;   /* or whatever width you want */
+  float: left;
 }
 
 .author-sidebar {
   visibility: visible !important;
-}
-
-
-.author-sidebar {
   width: 300px;
   position: sticky;
   top: 2rem;
 }
-
-
 
 /* Make the content column full-width */
 .page,
@@ -51,6 +41,7 @@
   width: 100% !important;
   padding: 0 !important;
   float: none !important;
+  margin-left: 300px;
 }
 
 .page__footer .page__nav {
