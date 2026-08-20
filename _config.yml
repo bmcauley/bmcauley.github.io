@@ -83,6 +83,9 @@ defaults:
       show_post_nav: false
 
 
+sidebar:
+  nav: false
+
 # Removing feed
 atom_feed:
   hide: true
