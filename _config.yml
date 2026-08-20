@@ -19,6 +19,7 @@ plugins:
 
 # Author settings
 author:
+  sidebar: true
   name: "Bennett McAuley"
   avatar: "assets/images/my-notion-face-transparent.png"
   bio: "Born to be an overthinker, trained to be a statistician, proven to be an advocate for all."
