@@ -30,15 +30,6 @@ author:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/bennett-mcauley/"
 
-# Navigation
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-
 # Collections
 collections:
   projects:
