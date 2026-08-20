@@ -23,11 +23,25 @@
   color: inherit !important;
 }
 
+/* Disable the sidebar grid entirely */
+.page {
+  width: 100% !important;
+  padding-inline-end: 0 !important;
+  float: none !important;
+}
+
+/* Prevent the sidebar column from taking space */
+.sidebar {
+  display: none !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 /* widening usable space*/
 .page {
   max-width: 1400px !important;
 }
-
 
 .page__footer .page__nav {
   display: none !important;

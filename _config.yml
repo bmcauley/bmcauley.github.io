@@ -60,7 +60,6 @@ defaults:
       layout: single
       author_profile: true
       published: false
-      sidebar: false
 
   - scope:
       path: ""
@@ -68,8 +67,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar: false
-
+   
   - scope:
       path: ""
       type: projects
@@ -82,9 +80,6 @@ defaults:
     values:
       show_post_nav: false
 
-
-sidebar:
-  nav: false
 
 # Removing feed
 atom_feed:
