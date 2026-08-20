@@ -24,9 +24,11 @@
 
 .sidebar {
   visibility: hidden;
-  width: 300px;   /* or whatever width you want */
+  width: 300px !important;
   float: left;
+  min-height: 1px; /* prevents collapse */
 }
+
 
 .author-sidebar {
   visibility: visible !important;
@@ -37,10 +39,7 @@
 /* Make the content column full-width */
 .page,
 .archive {
-  width: 100% !important;
-  padding: 0 !important;
-  float: none !important;
-  margin-left: 300px;
+  margin-left: 300px !important;
 }
 
 .page__footer .page__nav {
