@@ -18,7 +18,9 @@
 
 /* Container spacing */
 .skill-section {
-  padding-bottom: 30px;
+  display: block;
+  margin-bottom: 40px;
+  overflow: auto;
 }
 
 /* Category button */
