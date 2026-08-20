@@ -18,7 +18,7 @@
 
 /* Container spacing */
 .skill-section {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 /* Category button */
@@ -52,7 +52,7 @@
 /* Individual skill buttons */
 .skill-btn {
   background: #6be8e0;
-  color: #000000;
+  color: #000000 !important;
   padding: 8px 14px;
   border-radius: 8px;
   font-weight: 600;
