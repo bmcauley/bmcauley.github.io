@@ -5,6 +5,7 @@ title: "Welcome!"
 header:
   image: "/assets/images/Portfolio_Banner.png"
 show_posts: false
+paginate: false
 ---
 
 ## Skills
