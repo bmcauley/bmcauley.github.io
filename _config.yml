@@ -8,6 +8,7 @@ locale: "en-US"
 url: "https://bmcauley.github.io"
 baseurl: ""   # IMPORTANT: must be empty for username.github.io sites
 show_excerpts: false
+paginate: false
 
 # Build settings
 markdown: kramdown
@@ -72,6 +73,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  - scope:
+      path: ""
+    values:
+      show_post_nav: false
+
 
 # Removing feed
 atom_feed:

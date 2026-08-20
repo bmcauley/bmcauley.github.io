@@ -25,10 +25,12 @@
 
 
 /* Increase width of content */
+.container,
 .page__inner-wrap,
 .page__content {
-  max-width: 1400px;
+  max-width: 1400px !important;
 }
+
 
 
 /* Container spacing */

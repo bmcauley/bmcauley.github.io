@@ -6,6 +6,7 @@ header:
   image: "/assets/images/Portfolio_Banner.png"
 show_posts: false
 paginate: false
+entries_layout: none
 ---
 
 ## Skills
