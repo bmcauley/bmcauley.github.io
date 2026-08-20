@@ -4,6 +4,7 @@ author_profile: true
 title: "Welcome!"
 header:
   image: "/assets/images/Portfolio_Banner.png"
+show_posts: false
 ---
 
 ## Skills

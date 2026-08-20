@@ -15,7 +15,7 @@ highlighter: rouge
 plugins:
   - jekyll-include-cache
 
-# Author
+# Author settings
 author:
   name: "Bennett McAuley"
   avatar: "assets/images/my-notion-face-transparent.png"
@@ -71,3 +71,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# Removing feed
+atom_feed:
+  hide: true
