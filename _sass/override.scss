@@ -24,15 +24,7 @@
 }
 
 /* widening usable space*/
-.layout--archive .page,
-.layout--archive .page__inner-wrap,
-.layout--archive .page__content {
-  max-width: 1400px !important;
-}
-
-.layout--single .container,
-.layout--single .page__inner-wrap,
-.layout--single .page__content {
+.initial-content {
   max-width: 1400px !important;
 }
 
