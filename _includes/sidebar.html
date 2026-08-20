@@ -9,6 +9,7 @@
     {% endif %}
 
     {% if page.sidebar %}
+      <div class="page-sidebar-content">
       {% for s in page.sidebar %}
         {% if s.image %}
           <img src="{{ s.image | relative_url }}"
@@ -21,6 +22,7 @@
       {% if page.sidebar.nav %}
         {% include nav_list locale=locale nav=page.sidebar.nav %}
       {% endif %}
+      </div>
     {% endif %}
 
     {% include sidebar-custom.html %}

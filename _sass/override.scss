@@ -23,15 +23,15 @@
 }
 
 .sidebar {
-  visibility: hidden;
-  width: 300px !important;
+  width: 300px;
   float: left;
-  min-height: 1px; /* prevents collapse */
 }
 
+.page-sidebar-content {
+  display: none;
+}
 
 .author-sidebar {
-  visibility: visible !important;
   position: sticky;
   top: 2rem;
 }
@@ -39,8 +39,9 @@
 /* Make the content column full-width */
 .page,
 .archive {
-  margin-left: 300px !important;
+  margin-left: 300px;
 }
+
 
 .page__footer .page__nav {
   display: none !important;
