@@ -14,29 +14,27 @@ classes: wide
   <label for="tab1">Big Five</label>
 
   <input type="radio" id="tab2" name="tabs">
-  <label for="tab2">VIA Strengths</label>
+  <label for="tab2">VIA</label>
 
   <input type="radio" id="tab3" name="tabs">
   <label for="tab3">16PF</label>
 
   <div class="tab-content" id="content1">
-    <h3>Big Five (OCEAN)</h3>
+    <h3>Big Five (OCEAN) Model</h3>
     <canvas id="big5-chart"></canvas>
   </div>
 
   <div class="tab-content" id="content2">
     <h3>VIA Character Strengths</h3>
-    <ul class="via-list">
-      <li><button class="via-btn">Creativity</button></li>
-      <li><button class="via-btn">Love of Learning</button></li>
-      <li><button class="via-btn">Perspective</button></li>
-      <li><button class="via-btn">Humor</button></li>
-      <li><button class="via-btn">Leadership</button></li>
-    </ul>
+      <button class="via-btn">Creativity</button><br>
+      <button class="via-btn">Love of Learning</button>
+      <button class="via-btn">Perspective</button>
+      <button class="via-btn">Humor</button>
+      <button class="via-btn">Leadership</button>
   </div>
 
   <div class="tab-content" id="content3">
-    <h3>16PF</h3>
+    <h3>Cattell's 16 Personality Factors</h3>
     <canvas id="pf16-chart"></canvas>
   </div>
 
@@ -61,9 +59,9 @@ new Chart(document.getElementById('big5-chart'), {
       scales: {
     y: {
       ticks: {
-        color: '#1e1e1e',     // readable light text
+        color: '#1e1e1e',
         font: {
-          size: 16,           // adjust as needed
+          size: 16, 
           weight: '400'
         }
       }
@@ -81,6 +79,13 @@ new Chart(document.getElementById('big5-chart'), {
     indexAxis: 'y',
     plugins: {
       legend: {display : false},
+      datalabels: {
+        color: '#1e1e1e',
+        anchor: 'end',
+        align: 'right',
+        font: { weight: '600', size: 14 },
+        formatter: value => value
+      },
       tooltip: {
         callbacks: {
           label: function(context) {
@@ -138,6 +143,13 @@ new Chart(document.getElementById('pf16-chart'), {
     indexAxis: 'y',
     plugins: {
       legend: {display : false},
+      datalabels: {
+        color: '#1e1e1e',
+        anchor: 'end',
+        align: 'right',
+        font: { weight: '600', size: 14 },
+        formatter: value => value
+      },
       tooltip: {
         callbacks: {
           label: function(context) {
@@ -170,7 +182,7 @@ new Chart(document.getElementById('pf16-chart'), {
 
 <style>
 .via-btn {
-  background: #eee;
+  background: #2d2d2d;
   border: none;
   padding: 8px 14px;
   margin: 6px 0;
