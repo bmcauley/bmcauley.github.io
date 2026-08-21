@@ -23,19 +23,24 @@ classes: wide
     <h3>Big Five (OCEAN) Model</h3>
     <canvas id="big5-chart"></canvas>
 
-  <div class="notice--info">
+  <div class="notice--primary">
     Curious about this assessment?  
     <a href="/about/big5">Learn more here.</a>
   </div>
   </div>
 
   <div class="tab-content" id="content2">
-    <h3>VIA Character Strengths</h3>
-      <button class="via-btn"><i class="fa-solid fa-palette"></i>Creativity</button><br>
+    <h3>VIA Character Strengths (Top 5)</h3>
+      <button class="via-btn"><i class="fa-solid fa-palette"></i> Creativity</button><i>"I am creative, conceptualizing something useful, coming up with ideas that result in something worthwhile."</i><br>
       <button class="via-btn">Love of Learning</button><br>
       <button class="via-btn">Perspective</button><br>
       <button class="via-btn">Humor</button><br>
       <button class="via-btn">Leadership</button>
+
+  <div class="notice--primary">
+    Descriptions provided by VIA Institute. Curious about this assessment?  
+    <a href="https://www.viacharacter.org/">Discover your strengths here!</a>
+  </div>
   </div>
 
   <div class="tab-content" id="content3">
