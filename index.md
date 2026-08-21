@@ -10,8 +10,6 @@ entries_layout: none
 classes: wide
 ---
 
-## Skills
-
 <div class="skill-section">
 
   <!-- HR Systems -->
