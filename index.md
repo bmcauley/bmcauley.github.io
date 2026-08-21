@@ -8,6 +8,8 @@ show_posts: false
 paginate: false
 entries_layout: none
 classes: wide
+sidebar:
+  nav: ""
 ---
 
 ## Skills
