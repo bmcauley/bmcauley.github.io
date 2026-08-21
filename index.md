@@ -9,7 +9,12 @@ paginate: false
 entries_layout: none
 classes: wide
 sidebar:
-  nav: ""
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
 ---
 
 ## Skills
