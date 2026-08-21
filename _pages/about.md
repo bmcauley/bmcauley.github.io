@@ -20,22 +20,23 @@ classes: wide
   <label for="tab3">16PF</label>
 
   <div class="tab-content" id="content1">
-    <h2>Big Five (OCEAN)</h2>
+    <h3>Big Five (OCEAN)</h3>
     <canvas id="big5-chart"></canvas>
   </div>
 
   <div class="tab-content" id="content2">
-    <h2>VIA Character Strengths</h2>
+    <h3>VIA Character Strengths</h3>
     <ul class="via-list">
       <li><button class="via-btn">Creativity</button></li>
-      <li><button class="via-btn">Judgment</button></li>
       <li><button class="via-btn">Love of Learning</button></li>
       <li><button class="via-btn">Perspective</button></li>
+      <li><button class="via-btn">Humor</button></li>
+      <li><button class="via-btn">Leadership</button></li>
     </ul>
   </div>
 
   <div class="tab-content" id="content3">
-    <h2>16PF</h2>
+    <h3>16PF</h3>
     <canvas id="pf16-chart"></canvas>
   </div>
 
@@ -53,7 +54,7 @@ new Chart(document.getElementById('big5-chart'), {
     datasets: [{
       label: 'Score',
       data: [99, 61, 38, 74, 14],
-      backgroundColor: '#6a4cff'
+      backgroundColor: '#4cffc3'
     }]
   },
   options: {
@@ -62,8 +63,8 @@ new Chart(document.getElementById('big5-chart'), {
       ticks: {
         color: '#f0f0f0',     // readable light text
         font: {
-          size: 14,           // adjust as needed
-          weight: '600'
+          size: 16,           // adjust as needed
+          weight: '300'
         }
       }
     },
@@ -111,7 +112,7 @@ new Chart(document.getElementById('pf16-chart'), {
     datasets: [{
       label: 'Score',
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
-      backgroundColor: '#ff6a8b'
+      backgroundColor: '#4cffc3'
     }]
   },
   options: {
