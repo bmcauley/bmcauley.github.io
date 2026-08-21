@@ -142,48 +142,58 @@ new Chart(document.getElementById('pf16-chart'), {
 </style>
 
 <style>
+/* TAB WRAPPER */
 .custom-tabs {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  margin-bottom: 1rem;
 }
 
+/* HIDE RADIO BUTTONS */
 .custom-tabs input[type="radio"] {
   display: none;
 }
 
+/* TAB LABELS */
 .custom-tabs label {
-  padding: 10px 15px;
-  margin-right: 5px;
+  display: inline-block;        /* ← THIS fixes the vertical stacking */
+  padding: 10px 16px;
+  margin-right: 4px;
   cursor: pointer;
-  background: #eee;
+  background: #2d2d2d;          /* dark background */
+  color: #f0f0f0;               /* readable light text */
   border-radius: 6px 6px 0 0;
-  display: inline-block;
+  font-weight: 600;
 }
 
+/* HOVER */
 .custom-tabs label:hover {
-  background: #ddd;
+  background: #444;
 }
 
+/* TAB CONTENT */
 .tab-content {
   display: none;
-  padding: 15px;
-  border: 1px solid #ddd;
+  padding: 20px;
+  background: #1e1e1e;          /* dark panel */
+  color: #f0f0f0;               /* readable text */
+  border: 1px solid #444;
   border-top: none;
-  background: #fafafa;
+  border-radius: 0 0 6px 6px;
 }
 
-/* Show content when radio is checked */
+/* ACTIVE TAB CONTENT */
 #tab1:checked ~ #content1,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3 {
   display: block;
 }
 
-/* Highlight active tab */
+/* ACTIVE TAB LABEL */
 #tab1:checked + label,
 #tab2:checked + label,
 #tab3:checked + label {
-  background: #fff;
-  border-bottom: 1px solid #fff;
+  background: #ffffff;          /* active tab background */
+  color: #000000;               /* readable active text */
+  border-bottom: 1px solid #ffffff;
 }
 </style>
