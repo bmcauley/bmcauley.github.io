@@ -54,14 +54,14 @@ new Chart(document.getElementById('big5-chart'), {
     datasets: [{
       label: 'Score',
       data: [99, 61, 38, 74, 14],
-      backgroundColor: '#4cffc3'
+      backgroundColor: '#5e4cff'
     }]
   },
   options: {
       scales: {
     y: {
       ticks: {
-        color: '#f0f0f0',     // readable light text
+        color: '#1e1e1e',     // readable light text
         font: {
           size: 16,           // adjust as needed
           weight: '400'
@@ -70,7 +70,7 @@ new Chart(document.getElementById('big5-chart'), {
     },
     x: {
       ticks: {
-        color: '#f0f0f0',
+        color: '#1e1e1e',
         font: {
           size: 14
         }
@@ -112,14 +112,14 @@ new Chart(document.getElementById('pf16-chart'), {
     datasets: [{
       label: 'Score',
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
-      backgroundColor: '#4cffc3'
+      backgroundColor: '#5e4cff'
     }]
   },
   options: {      
     scales: {
     y: {
       ticks: {
-        color: '#f0f0f0',     // readable light text
+        color: '#1e1e1e',     // readable light text
         font: {
           size: 16,           // adjust as needed
           weight: '400'
@@ -128,7 +128,7 @@ new Chart(document.getElementById('pf16-chart'), {
     },
     x: {
       ticks: {
-        color: '#f0f0f0',
+        color: '#1e1e1e',
         font: {
           size: 14
         }
