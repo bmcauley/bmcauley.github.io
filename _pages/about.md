@@ -22,14 +22,19 @@ classes: wide
   <div class="tab-content" id="content1">
     <h3>Big Five (OCEAN) Model</h3>
     <canvas id="big5-chart"></canvas>
+
+  <div class="notice--info">
+    Curious about this assessment?  
+    <a href="/about/big5">Learn more here.</a>
+  </div>
   </div>
 
   <div class="tab-content" id="content2">
     <h3>VIA Character Strengths</h3>
-      <button class="via-btn">Creativity</button><br>
-      <button class="via-btn">Love of Learning</button>
-      <button class="via-btn">Perspective</button>
-      <button class="via-btn">Humor</button>
+      <button class="via-btn"><i class="fa-solid fa-palette"></i>Creativity</button><br>
+      <button class="via-btn">Love of Learning</button><br>
+      <button class="via-btn">Perspective</button><br>
+      <button class="via-btn">Humor</button><br>
       <button class="via-btn">Leadership</button>
   </div>
 
