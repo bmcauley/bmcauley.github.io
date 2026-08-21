@@ -101,3 +101,38 @@
 .skill-section:nth-of-type(4) .skill-btn { background: #c0efff; }
 .skill-section:nth-of-type(5) .skill-btn { background: #c8ddff; }
 .skill-section:nth-of-type(6) .skill-btn { background: #d6e4ff; }
+
+/* Container for fun traits */
+.author-fun-traits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+/* Individual stat cards */
+.stat-card {
+  background: #f0f0ff; /* soft cosmic lilac */
+  border: 1px solid #d0d0ff; /* subtle border */
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.fun-header {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #6a5cff; /* cosmic purple */
+}
