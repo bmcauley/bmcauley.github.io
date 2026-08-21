@@ -40,6 +40,9 @@ classes: wide
 
 </div>
 
+<script>
+  Chart.register(ChartDataLabels);
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -183,6 +186,7 @@ new Chart(document.getElementById('pf16-chart'), {
 <style>
 .via-btn {
   background: #2d2d2d;
+  color: #fff;
   border: none;
   padding: 8px 14px;
   margin: 6px 0;
@@ -191,7 +195,7 @@ new Chart(document.getElementById('pf16-chart'), {
   font-size: 0.9rem;
 }
 .via-btn:hover {
-  background: #dcd3ff;
+  background: #5e4cff;
 }
 </style>
 
