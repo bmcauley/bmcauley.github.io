@@ -57,8 +57,29 @@ new Chart(document.getElementById('big5-chart'), {
     }]
   },
   options: {
+      scales: {
+    y: {
+      ticks: {
+        color: '#f0f0f0',     // readable light text
+        font: {
+          size: 14,           // adjust as needed
+          weight: '600'
+        }
+      }
+    },
+    x: {
+      ticks: {
+        color: '#f0f0f0',
+        font: {
+          size: 14
+        }
+      }
+    }
+  },
+
     indexAxis: 'y',
     plugins: {
+      legend: {display : false},
       tooltip: {
         callbacks: {
           label: function(context) {
