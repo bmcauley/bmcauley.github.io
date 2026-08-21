@@ -8,47 +8,39 @@ header:
 classes: wide
 ---
 
-<div class="mm-tabs">
+<div class="custom-tabs">
 
-  <!-- TAB SELECTORS -->
-  <input type="radio" name="tabs" id="tab-big5" checked>
-  <label for="tab-big5">Big Five</label>
+  <input type="radio" id="tab1" name="tabs" checked>
+  <label for="tab1">Big Five</label>
 
-  <input type="radio" name="tabs" id="tab-via">
-  <label for="tab-via">VIA Strengths</label>
+  <input type="radio" id="tab2" name="tabs">
+  <label for="tab2">VIA Strengths</label>
 
-  <input type="radio" name="tabs" id="tab-16pf">
-  <label for="tab-16pf">16PF</label>
+  <input type="radio" id="tab3" name="tabs">
+  <label for="tab3">16PF</label>
 
-  <!-- TAB CONTENT: BIG FIVE -->
-  <div class="mm-tab-content" id="content-big5">
+  <div class="tab-content" id="content1">
     <h2>Big Five (OCEAN)</h2>
-    <div class="chart-container">
-      <canvas id="big5-chart"></canvas>
-    </div>
+    <canvas id="big5-chart"></canvas>
   </div>
 
-  <!-- TAB CONTENT: VIA -->
-  <div class="mm-tab-content" id="content-via">
+  <div class="tab-content" id="content2">
     <h2>VIA Character Strengths</h2>
     <ul class="via-list">
       <li><button class="via-btn">Creativity</button></li>
       <li><button class="via-btn">Judgment</button></li>
       <li><button class="via-btn">Love of Learning</button></li>
       <li><button class="via-btn">Perspective</button></li>
-      <!-- Add more as needed -->
     </ul>
   </div>
 
-  <!-- TAB CONTENT: 16PF -->
-  <div class="mm-tab-content" id="content-16pf">
+  <div class="tab-content" id="content3">
     <h2>16PF</h2>
-    <div class="chart-container">
-      <canvas id="pf16-chart"></canvas>
-    </div>
+    <canvas id="pf16-chart"></canvas>
   </div>
 
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
@@ -134,7 +126,6 @@ new Chart(document.getElementById('pf16-chart'), {
 });
 </script>
 
-
 <style>
 .via-btn {
   background: #eee;
@@ -147,5 +138,52 @@ new Chart(document.getElementById('pf16-chart'), {
 }
 .via-btn:hover {
   background: #dcd3ff;
+}
+</style>
+
+<style>
+.custom-tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-tabs input[type="radio"] {
+  display: none;
+}
+
+.custom-tabs label {
+  padding: 10px 15px;
+  margin-right: 5px;
+  cursor: pointer;
+  background: #eee;
+  border-radius: 6px 6px 0 0;
+  display: inline-block;
+}
+
+.custom-tabs label:hover {
+  background: #ddd;
+}
+
+.tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+  background: #fafafa;
+}
+
+/* Show content when radio is checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display: block;
+}
+
+/* Highlight active tab */
+#tab1:checked + label,
+#tab2:checked + label,
+#tab3:checked + label {
+  background: #fff;
+  border-bottom: 1px solid #fff;
 }
 </style>
