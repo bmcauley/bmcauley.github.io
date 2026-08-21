@@ -64,7 +64,7 @@ new Chart(document.getElementById('big5-chart'), {
         color: '#f0f0f0',     // readable light text
         font: {
           size: 16,           // adjust as needed
-          weight: '300'
+          weight: '400'
         }
       }
     },
@@ -115,9 +115,29 @@ new Chart(document.getElementById('pf16-chart'), {
       backgroundColor: '#4cffc3'
     }]
   },
-  options: {
+  options: {      
+    scales: {
+    y: {
+      ticks: {
+        color: '#f0f0f0',     // readable light text
+        font: {
+          size: 16,           // adjust as needed
+          weight: '400'
+        }
+      }
+    },
+    x: {
+      ticks: {
+        color: '#f0f0f0',
+        font: {
+          size: 14
+        }
+      }
+    }
+  },
     indexAxis: 'y',
     plugins: {
+      legend: {display : false},
       tooltip: {
         callbacks: {
           label: function(context) {
@@ -196,8 +216,8 @@ new Chart(document.getElementById('pf16-chart'), {
 .tab-content {
   display: none;
   padding: 20px;
-  background: #1e1e1e;          /* dark panel */
-  color: #f0f0f0;               /* readable text */
+  background: #f0f0f0;          /* dark panel */
+  color: #1e1e1e;               /* readable text */
   border: 1px solid #444;
   border-top: none;
   border-radius: 0 0 6px 6px;
