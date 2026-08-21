@@ -50,10 +50,22 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
+.skill-category {
+  --hues: 
+}
+
 /* Icon inside category */
 .skill-icon {
   font-size: 1.4rem;
 }
+/* Palette Buttons
+#cdffd8
+#adf7e1
+#92eced
+#84def8
+#86cdff
+#95b9ff
+*/
 
 /* Skill buttons row */
 .skill-buttons {
@@ -79,23 +91,11 @@
   filter: saturate(1.2);
 }
 
-:root {
-  --total-categories: 5; /* change this if you add more */
-}
 
-/* Assign index automatically */
-.skill-section:nth-of-type(n) {
-  --index: calc(n - 1);
-}
-
-/* Category button color */
-.skill-category {
-  --hue: calc(360 * var(--index) / var(--total-categories));
-  background: hsl(var(--hue), 60%, 50%);
-}
-
-/* Skill buttons use a lighter shade of the same hue */
-.skill-btn {
-  background: hsl(var(--hue), 60%, 70%);
-}
+.skill-category:nth-of-type(1) { background: #cdffd8; }
+.skill-category:nth-of-type(2) { background: #adf7e1; }
+.skill-category:nth-of-type(3) { background: #92eced; }
+.skill-category:nth-of-type(4) { background: #84def8; }
+.skill-category:nth-of-type(5) { background: #86cdff; }
+.skill-category:nth-of-type(6) { background: #95b9ff; }
 
