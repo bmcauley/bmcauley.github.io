@@ -50,14 +50,11 @@
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-.skill-category {
-  --hues: 
-}
-
 /* Icon inside category */
 .skill-icon {
   font-size: 1.4rem;
 }
+
 /* Palette Buttons
 #cdffd8
 #adf7e1
@@ -91,11 +88,16 @@
   filter: saturate(1.2);
 }
 
+.skill-section:nth-of-type(1) .skill-category { background: #cdffd8; }
+.skill-section:nth-of-type(2) .skill-category { background: #adf7e1; }
+.skill-section:nth-of-type(3) .skill-category { background: #92eced; }
+.skill-section:nth-of-type(4) .skill-category { background: #84def8; }
+.skill-section:nth-of-type(5) .skill-category { background: #86cdff; }
+.skill-section:nth-of-type(6) .skill-category { background: #95b9ff; }
 
-.skill-category:nth-of-type(1) { background: #cdffd8; }
-.skill-category:nth-of-type(2) { background: #adf7e1; }
-.skill-category:nth-of-type(3) { background: #92eced; }
-.skill-category:nth-of-type(4) { background: #84def8; }
-.skill-category:nth-of-type(5) { background: #86cdff; }
-.skill-category:nth-of-type(6) { background: #95b9ff; }
-
+.skill-section:nth-of-type(1) .skill-btn { background: #e6ffe9; }
+.skill-section:nth-of-type(2) .skill-btn { background: #d6fcf0; }
+.skill-section:nth-of-type(3) .skill-btn { background: #c8f7f8; }
+.skill-section:nth-of-type(4) .skill-btn { background: #c0efff; }
+.skill-section:nth-of-type(5) .skill-btn { background: #c8ddff; }
+.skill-section:nth-of-type(6) .skill-btn { background: #d6e4ff; }
