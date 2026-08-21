@@ -31,11 +31,30 @@ classes: wide
 
   <div class="tab-content" id="content2">
     <h3>VIA Character Strengths (Top 5)</h3>
-      <button class="via-btn"><i class="fa-solid fa-palette"></i> Creativity</button><i>"I am creative, conceptualizing something useful, coming up with ideas that result in something worthwhile."</i><br>
-      <button class="via-btn">Love of Learning</button><br>
-      <button class="via-btn">Perspective</button><br>
-      <button class="via-btn">Humor</button><br>
-      <button class="via-btn">Leadership</button>
+      <button class="via-btn"><i class="fa-solid fa-palette"></i> Creativity</button>
+      <p>
+        <i>"I am creative, conceptualizing something useful, coming up with ideas that result in something worthwhile."</i>
+      </p>
+        <br>
+   <button class="via-btn"><i class="fa-solid fa-graduation-cap"></i> Love of Learning</button>
+      <p>
+        <i>"I am motivated to acquire new levels of knowledge, or deepen my existing knowledge or skills in a significant way."</i>
+      </p>
+        <br>
+   <button class="via-btn"><i class="fa-solid fa-comment-medical"></i> Perspective</button>
+      <p>
+        <i>"I give advice to others by considering different (and relevant) perspectives and using my own experiences and knowledge to clarify the big picture."</i>
+      </p>
+        <br>
+     <button class="via-btn"><i class="fa-solid fa-face-laugh-beam"></i> Humor</button>
+      <p>
+        <i>"I approach life playfully, making others laugh, and finding humor in difficult and stressful times."</i>
+      </p>
+        <br>
+     <button class="via-btn"><i class="fa-solid fa-heart-circle-check"></i> Leadership</button>
+      <p>
+        <i>"I take charge and guide groups to meaningful goals, and ensure good relations among group members."</i>
+      </p>
 
   <div class="notice--primary">
     Descriptions provided by VIA Institute. Curious about this assessment?  
