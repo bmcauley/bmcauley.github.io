@@ -35,28 +35,28 @@ classes: wide
       <p>
         <i>"I am creative, conceptualizing something useful, coming up with ideas that result in something worthwhile."</i>
       </p>
-        <br>
+
    <button class="via-btn"><i class="fa-solid fa-graduation-cap"></i> Love of Learning</button>
       <p>
         <i>"I am motivated to acquire new levels of knowledge, or deepen my existing knowledge or skills in a significant way."</i>
       </p>
-        <br>
+  
    <button class="via-btn"><i class="fa-solid fa-comment-medical"></i> Perspective</button>
       <p>
         <i>"I give advice to others by considering different (and relevant) perspectives and using my own experiences and knowledge to clarify the big picture."</i>
       </p>
-        <br>
+
      <button class="via-btn"><i class="fa-solid fa-face-laugh-beam"></i> Humor</button>
       <p>
         <i>"I approach life playfully, making others laugh, and finding humor in difficult and stressful times."</i>
       </p>
-        <br>
+
      <button class="via-btn"><i class="fa-solid fa-heart-circle-check"></i> Leadership</button>
       <p>
         <i>"I take charge and guide groups to meaningful goals, and ensure good relations among group members."</i>
       </p>
 
-  <div class="notice--primary">
+  <div class="notice">
     Descriptions provided by VIA Institute. Curious about this assessment?  
     <a href="https://www.viacharacter.org/">Discover your strengths here!</a>
   </div>
