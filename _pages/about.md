@@ -80,13 +80,15 @@ classes: wide
 
 </div>
 
-<script>
-  Chart.register(ChartDataLabels);
-</script>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 
 <script>
+// BIG FIVE CHART
+// REGISTER THE PLUGIN (required for Chart.js v4)
+Chart.register(ChartDataLabels);
+
 // BIG FIVE CHART
 new Chart(document.getElementById('big5-chart'), {
   type: 'bar',
@@ -95,32 +97,46 @@ new Chart(document.getElementById('big5-chart'), {
     datasets: [{
       label: 'Score',
       data: [99, 61, 38, 74, 14],
-      backgroundColor: '#5e4cff'
+      backgroundColor: '#5e4cff',
+      barThickness: 24 // optional: adjust bar width
     }]
   },
   options: {
-      scales: {
-    y: {
-      ticks: {
-        color: '#1e1e1e',
-        font: {
-          size: 16, 
-          weight: '400'
+    indexAxis: 'y',
+    scales: {
+      y: {
+        ticks: {
+          color: '#1e1e1e',
+          font: {
+            size: 16,
+            weight: '400'
+          }
+        }
+      },
+      x: {
+        ticks: {
+          color: '#1e1e1e',
+          font: {
+            size: 14
+          }
         }
       }
     },
-    x: {
-      ticks: {
-        color: '#1e1e1e',
-        font: {
-          size: 14
-        }
-      }
-    }
-  },
-    indexAxis: 'y',
     plugins: {
-      legend: {display : false},
+      legend: { display: false },
+
+      // ⭐ DATA LABELS
+      datalabels: {
+        color: '#1e1e1e',
+        anchor: 'end',
+        align: 'right',
+        font: {
+          size: 14,
+          weight: '600'
+        },
+        formatter: value => value
+      },
+
       tooltip: {
         callbacks: {
           label: function(context) {
