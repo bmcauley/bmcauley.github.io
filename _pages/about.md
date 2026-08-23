@@ -56,7 +56,7 @@ classes: wide
         <i>"I take charge and guide groups to meaningful goals, and ensure good relations among group members."</i>
       </p>
 
-  <div class="notice">
+  <div class="notice--info">
     Descriptions provided by VIA Institute. Curious about this assessment?  
     <a href="https://www.viacharacter.org/">Discover your strengths here!</a>
   </div>
