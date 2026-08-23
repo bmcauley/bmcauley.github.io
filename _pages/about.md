@@ -120,7 +120,7 @@ new Chart(document.getElementById('big5-chart'), {
   },
     indexAxis: 'y',
     plugins: {
-      legend: {display : false},,
+      legend: {display : false},
       tooltip: {
         callbacks: {
           label: function(context) {
@@ -134,18 +134,6 @@ new Chart(document.getElementById('big5-chart'), {
             return descriptions[context.label];
           }
         }
-      }
-    },
-    plugins: [ChartDataLabels],
-    options {
-      plugins: {
-        datalabels: {
-        color: '#1e1e1e',
-        anchor: 'end',
-        align: 'right',
-        font: { weight: '600', size: 14 },
-        formatter: value => value
-      }
       }
     }
   }
@@ -166,6 +154,17 @@ new Chart(document.getElementById('pf16-chart'), {
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
       backgroundColor: '#5e4cff'
     }]
+  },
+  plugins: [ChartDataLabels],
+  options: {
+    plugins: {
+      datalabels: {
+        color: #000,
+        anchor: 'end',
+        align: 'left'
+        formatter: (value) => '$' + value
+      }
+    }
   },
   options: {      
     scales: {
@@ -190,13 +189,6 @@ new Chart(document.getElementById('pf16-chart'), {
     indexAxis: 'y',
     plugins: {
       legend: {display : false},
-      datalabels: {
-        color: '#1e1e1e',
-        anchor: 'end',
-        align: 'right',
-        font: { weight: '600', size: 14 },
-        formatter: value => value
-      },
       tooltip: {
         callbacks: {
           label: function(context) {
