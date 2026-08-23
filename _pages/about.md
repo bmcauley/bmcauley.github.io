@@ -118,17 +118,9 @@ new Chart(document.getElementById('big5-chart'), {
       }
     }
   },
-
     indexAxis: 'y',
-    plugins: [ChartDataLabels] {
-      legend: {display : false},
-      datalabels: {
-        color: '#1e1e1e',
-        anchor: 'end',
-        align: 'right',
-        font: { weight: 'bold', size: 14 },
-        formatter: value => value
-      },
+    plugins: {
+      legend: {display : false},,
       tooltip: {
         callbacks: {
           label: function(context) {
@@ -142,6 +134,18 @@ new Chart(document.getElementById('big5-chart'), {
             return descriptions[context.label];
           }
         }
+      }
+    },
+    plugins: [ChartDataLabels],
+    options {
+      plugins: {
+        datalabels: {
+        color: '#1e1e1e',
+        anchor: 'end',
+        align: 'right',
+        font: { weight: '600', size: 14 },
+        formatter: value => value
+      }
       }
     }
   }
@@ -184,13 +188,13 @@ new Chart(document.getElementById('pf16-chart'), {
     }
   },
     indexAxis: 'y',
-    plugins: [ChartDataLabels] {
+    plugins: {
       legend: {display : false},
       datalabels: {
         color: '#1e1e1e',
         anchor: 'end',
         align: 'right',
-        font: { weight: 'bold', size: 14 },
+        font: { weight: '600', size: 14 },
         formatter: value => value
       },
       tooltip: {
