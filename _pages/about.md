@@ -96,7 +96,7 @@ new Chart(document.getElementById('big5-chart'), {
       label: 'Score',
       data: [99, 61, 38, 74, 14],
       backgroundColor: '#5e4cff',
-      barPercentage: 0.9
+      barPercentage: 0.9,
       categoryPercentage: 0.8
     }]
   },
