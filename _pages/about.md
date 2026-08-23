@@ -96,7 +96,8 @@ new Chart(document.getElementById('big5-chart'), {
       label: 'Score',
       data: [99, 61, 38, 74, 14],
       backgroundColor: '#5e4cff',
-      barThickness: 24
+      barPercentage: 0.9
+      categoryPercentage: 0.8
     }]
   },
   options: {
@@ -190,21 +191,21 @@ new Chart(document.getElementById('pf16-chart'), {
           label: function(context) {
             const descriptions = {
               'Warmth':'Low - Reserved | High - Outgoing',
-              'Reasoning': 'Analytical thinking and problem-solving.',
-              'Emotional Stability': 'Calmness and resilience.',
-              'Dominance': 'Assertiveness and leadership.',
-              'Liveliness': 'Spontaneity and enthusiasm.',
-              'Rule-Consciousness': 'Respect for norms and structure.',
-              'Social Boldness': 'Confidence in social situations.',
-              'Sensitivity': 'Empathy and emotional awareness.',
-              'Vigilance': 'Skepticism and cautiousness.',
-              'Abstractedness': 'Imagination and introspection.',
-              'Privateness': 'Discretion and guardedness.',
-              'Apprehension': 'Self-doubt and worry.',
-              'Openness to Change': 'Adaptability and curiosity.',
-              'Self-Reliance': 'Independence and autonomy.',
-              'Perfectionism': 'Organization and precision.',
-              'Tension': 'Restlessness and urgency.'
+              'Reasoning': 'Low - Concrete | High - Abstract',
+              'Emotional Stability': 'Low - Reactive | High - Calm',
+              'Dominance': 'Low - Accommodating | High - Assertive',
+              'Liveliness': 'Low - Serious | High - Lively',
+              'Rule-Consciousness': 'Low - Expedient | High - Conscientious',
+              'Social Boldness': 'Low - Shy | High - Confident',
+              'Sensitivity': 'Low - Objective | High - Empathetic',
+              'Vigilance': 'Low - Trusting | High - Skeptical',
+              'Abstractedness': 'Low - Grounded | High - Imaginative',
+              'Privateness': 'Low - Forthright | High - Discreet',
+              'Apprehension': 'Low - Self-assured | High - Self-doubting',
+              'Openness to Change': 'Low - Traditional | High - Progressive',
+              'Self-Reliance': 'Low - Group-oriented | High - Independent',
+              'Perfectionism': 'Low - Flexible | High - Organized',
+              'Tension': 'Low - Relaxed | High - Tense'
             };
             return descriptions[context.label];
           }
