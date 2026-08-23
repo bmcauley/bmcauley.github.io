@@ -30,8 +30,13 @@ classes: wide
   </div>
 
 <style>
-  p {
-  font-size: 0.75rem;
+#content2 p {
+  font-size: 0.75rem !important;
+  line-height: 1.3;
+}
+
+#content2 p i {
+  font-size: 0.75rem !important;
 }
 </style>
 
