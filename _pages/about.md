@@ -29,6 +29,12 @@ classes: wide
   </div>
   </div>
 
+<style>
+  p {
+  font-size: 10px;
+}
+</style>
+
   <div class="tab-content" id="content2">
     <h3>VIA Character Strengths (Top 5)</h3>
       <button class="via-btn"><i class="fa-solid fa-palette"></i> Creativity</button>
