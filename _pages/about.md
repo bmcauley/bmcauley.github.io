@@ -120,24 +120,24 @@ new Chart(document.getElementById('big5-chart'), {
   },
 
     indexAxis: 'y',
-    plugins: {
+    plugins: [ChartDataLabels] {
       legend: {display : false},
       datalabels: {
         color: '#1e1e1e',
         anchor: 'end',
         align: 'right',
-        font: { weight: '600', size: 14 },
+        font: { weight: 'bold', size: 14 },
         formatter: value => value
       },
       tooltip: {
         callbacks: {
           label: function(context) {
             const descriptions = {
-              'Openness': 'Curiosity, imagination, and preference for novelty.',
-              'Conscientiousness': 'Organization, discipline, and reliability.',
-              'Extraversion': 'Sociability, assertiveness, and energy.',
-              'Agreeableness': 'Compassion, cooperation, and trust.',
-              'Neuroticism': 'Emotional sensitivity and stress reactivity.'
+              'Openness': 'Degree to which a person is creative, imaginative, and prefers novelty.',
+              'Conscientiousness': 'Tendency to be responsible, organized, and self-disciplined',
+              'Extraversion': 'Degree to which a person feels energized by social/external activity.',
+              'Agreeableness': 'Tendency to be cooperative, trusting, and prioritizing social harmony.',
+              'Neuroticism': 'Tendency to experience negative emotions in response to stress or uncertainty.'
             };
             return descriptions[context.label];
           }
@@ -184,20 +184,20 @@ new Chart(document.getElementById('pf16-chart'), {
     }
   },
     indexAxis: 'y',
-    plugins: {
+    plugins: [ChartDataLabels] {
       legend: {display : false},
       datalabels: {
         color: '#1e1e1e',
         anchor: 'end',
         align: 'right',
-        font: { weight: '600', size: 14 },
+        font: { weight: 'bold', size: 14 },
         formatter: value => value
       },
       tooltip: {
         callbacks: {
           label: function(context) {
             const descriptions = {
-              'Warmth': 'Supportive, attentive, and friendly.',
+              'Warmth':'Low - Reserved | High - Outgoing',
               'Reasoning': 'Analytical thinking and problem-solving.',
               'Emotional Stability': 'Calmness and resilience.',
               'Dominance': 'Assertiveness and leadership.',
@@ -274,7 +274,7 @@ new Chart(document.getElementById('pf16-chart'), {
   padding: 20px;
   background: #f0f0f0;          /* dark panel */
   color: #1e1e1e;               /* readable text */
-  border: 1px solid #444;
+  border: 1px solid #959595;
   border-top: none;
   border-radius: 0 0 6px 6px;
 }
@@ -290,8 +290,8 @@ new Chart(document.getElementById('pf16-chart'), {
 #tab1:checked + label,
 #tab2:checked + label,
 #tab3:checked + label {
-  background: #ffffff;          /* active tab background */
-  color: #000000;               /* readable active text */
-  border-bottom: 1px solid #ffffff;
+  background: #5e4cff;          /* active tab background */
+  color: #ffffff;               /* readable active text */
+  /* border-bottom: 1px solid #ffffff;*/
 }
 </style>
