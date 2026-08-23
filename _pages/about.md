@@ -85,11 +85,9 @@ classes: wide
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
 
 <script>
-// BIG FIVE CHART
-// REGISTER THE PLUGIN (required for Chart.js v4)
+// REGISTER PLUGIN
 Chart.register(ChartDataLabels);
 
-// BIG FIVE CHART
 new Chart(document.getElementById('big5-chart'), {
   type: 'bar',
   data: {
@@ -98,7 +96,7 @@ new Chart(document.getElementById('big5-chart'), {
       label: 'Score',
       data: [99, 61, 38, 74, 14],
       backgroundColor: '#5e4cff',
-      barThickness: 24 // optional: adjust bar width
+      barThickness: 24
     }]
   },
   options: {
@@ -107,36 +105,25 @@ new Chart(document.getElementById('big5-chart'), {
       y: {
         ticks: {
           color: '#1e1e1e',
-          font: {
-            size: 16,
-            weight: '400'
-          }
+          font: { size: 16, weight: '400' }
         }
       },
       x: {
         ticks: {
           color: '#1e1e1e',
-          font: {
-            size: 14
-          }
+          font: { size: 14 }
         }
       }
     },
     plugins: {
       legend: { display: false },
-
-      // ⭐ DATA LABELS
       datalabels: {
         color: '#1e1e1e',
         anchor: 'end',
         align: 'right',
-        font: {
-          size: 14,
-          weight: '600'
-        },
+        font: { size: 14, weight: '600' },
         formatter: value => value
       },
-
       tooltip: {
         callbacks: {
           label: function(context) {
@@ -155,7 +142,6 @@ new Chart(document.getElementById('big5-chart'), {
   }
 });
 
-// 16PF CHART
 new Chart(document.getElementById('pf16-chart'), {
   type: 'bar',
   data: {
@@ -168,43 +154,37 @@ new Chart(document.getElementById('pf16-chart'), {
     datasets: [{
       label: 'Score',
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
-      backgroundColor: '#5e4cff'
+      backgroundColor: '#5e4cff',
+      barThickness: 24
     }]
   },
-  plugins: [ChartDataLabels],
   options: {
-    plugins: {
-      datalabels: {
-        color: #000,
-        anchor: 'end',
-        align: 'left'
-        formatter: (value) => '$' + value
-      }
-    }
-  },
-  options: {      
+    indexAxis: 'y',
     scales: {
-    y: {
-      ticks: {
-        color: '#1e1e1e',     // readable light text
-        font: {
-          size: 16,           // adjust as needed
-          weight: '400'
+      y: {
+        ticks: {
+          color: '#1e1e1e',
+          font: { size: 16, weight: '400' }
+        }
+      },
+      x: {
+        ticks: {
+          color: '#1e1e1e',
+          font: { size: 14 }
         }
       }
     },
-    x: {
-      ticks: {
-        color: '#1e1e1e',
-        font: {
-          size: 14
-        }
-      }
-    }
-  },
-    indexAxis: 'y',
     plugins: {
-      legend: {display : false},
+      legend: { display: false },
+
+      datalabels: {
+        color: '#1e1e1e',
+        anchor: 'end',
+        align: 'right',
+        font: { size: 14, weight: '600' },
+        formatter: value => value
+      },
+
       tooltip: {
         callbacks: {
           label: function(context) {
