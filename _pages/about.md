@@ -23,7 +23,7 @@ classes: wide
     <h3>Big Five (OCEAN) Model</h3>
     <canvas id="big5-chart"></canvas>
 
-  <div class="notice--primary">
+  <div class="notice--info">
     Curious about this assessment?  
     <a href="/about/big5">Learn more here.</a>
   </div>
@@ -31,7 +31,7 @@ classes: wide
 
 <style>
   p {
-  font-size: 10px;
+  font-size: 0.75rem;
 }
 </style>
 
