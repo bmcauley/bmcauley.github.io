@@ -75,7 +75,9 @@ classes: wide
 
   <div class="tab-content" id="content3">
     <h3>Cattell's 16 Personality Factors</h3>
-    <canvas id="pf16-chart"></canvas>
+    <div style="height: 750px;">
+      <canvas id="pf16-chart"></canvas>
+    </div>
   </div>
 
 </div>
@@ -156,7 +158,9 @@ new Chart(document.getElementById('pf16-chart'), {
       label: 'Score',
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
       backgroundColor: '#5e4cff',
-      barThickness: 24
+      barThickness: 24,
+      barPercentage: 0.9,
+      categoryPercentage: 0.8
     }]
   },
   options: {
