@@ -158,7 +158,7 @@ new Chart(document.getElementById('pf16-chart'), {
       label: 'Score',
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
       backgroundColor: '#5e4cff',
-      barThickness: 35,
+      minBarWidth: 30,
       barPercentage: 0.9,
       categoryPercentage: 0.8
     }]
