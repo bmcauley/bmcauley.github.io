@@ -99,7 +99,8 @@ new Chart(document.getElementById('big5-chart'), {
       data: [99, 61, 38, 74, 14],
       backgroundColor: '#5e4cff',
       barPercentage: 0.9,
-      categoryPercentage: 0.8
+      categoryPercentage: 0.8,
+      barThickness: 30
     }]
   },
   options: {
