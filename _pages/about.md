@@ -99,8 +99,7 @@ new Chart(document.getElementById('big5-chart'), {
       data: [99, 61, 38, 74, 14],
       backgroundColor: '#5e4cff',
       barPercentage: 0.9,
-      categoryPercentage: 0.8,
-      barThickness: 30
+      categoryPercentage: 0.8
     }]
   },
   options: {
@@ -159,7 +158,7 @@ new Chart(document.getElementById('pf16-chart'), {
       label: 'Score',
       data: [4.2, 4.3, 4.2, 3.9, 3.3, 2.5, 3.4, 3.9, 2.2, 4.3, 1.4, 1.9, 4.7, 3.8, 2.5, 2.5],
       backgroundColor: '#5e4cff',
-      barThickness: 24,
+      barThickness: 35,
       barPercentage: 0.9,
       categoryPercentage: 0.8
     }]
