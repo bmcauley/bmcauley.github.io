@@ -75,10 +75,11 @@ classes: wide
 
   <div class="tab-content" id="content3">
     <h3>Cattell's 16 Personality Factors</h3>
-    <div style="height: 750px;">
       <canvas id="pf16-chart"></canvas>
-    </div>
+    <div class="notice--info"> Curious about this assessment? <a href="https://www.viacharacter.org/">Discover your strengths here!</a>
   </div>
+  </div>
+
 
 </div>
 
