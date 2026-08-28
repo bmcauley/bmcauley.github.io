@@ -32,9 +32,9 @@ author:
 
 # Collections
 collections:
-  projects:
+  portfolio:
     output: true
-    permalink: /projects/:name/
+    permalink: /:collection/:path/
 
 # Pages
 collections:

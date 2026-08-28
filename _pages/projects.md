@@ -1,11 +1,13 @@
 ---
-layout: single
-permalink: /projects/
+layout: collection
+permalink: /portfolio/
 author_profile: true
-title: "Projects"
+title: "Portfolio"
 header:
   image: "/assets/images/Portfolio_Banner.png"
 classes: wide
+collection: portfolio
+entries_layout: grid
 ---
 
 This is where my projects live. Yay.
