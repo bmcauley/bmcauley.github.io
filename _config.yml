@@ -35,9 +35,6 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  pages:
-    output: true
-    permalink: /:title/
 
 # Defaults
 defaults:
