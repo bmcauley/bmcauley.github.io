@@ -8,4 +8,4 @@ header:
 classes: wide
 ---
 
-This for stuff that I do beyond my actual job.
+<!-- Start Square Appointments Embed Code --><script src='https://square.site/appointments/buyer/widget/buo7c3d4vxk0jz/LF82QMM8P8T7B.js'></script><!-- End Square Appointments Embed Code -->
