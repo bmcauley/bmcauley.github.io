@@ -30,14 +30,10 @@ author:
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/bennett-mcauley/"
 
-# Collections
-collections:
+
   portfolio:
     output: true
-    permalink: /portfolio/:path/
-  pages:
-    output: true
-    permalink: /pages/:path/
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -55,18 +51,20 @@ defaults:
     values:
       layout: single
       author_profile: true
-   
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
 
   - scope:
       path: ""
     values:
       show_post_nav: false
+
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+
 
 
 # Removing feed
