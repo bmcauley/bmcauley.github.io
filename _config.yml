@@ -34,10 +34,10 @@ author:
 collections:
   portfolio:
     output: true
-    permalink: /portfolio/:title/
+    permalink: /portfolio/:path/
   pages:
     output: true
-    permalink: /pages/:title/
+    permalink: /pages/:path/
 
 
 # Defaults
