@@ -293,3 +293,13 @@ new Chart(document.getElementById('pf16-chart'), {
   /* border-bottom: 1px solid #ffffff;*/
 }
 </style>
+
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('livevividly', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support Me',
+    'floating-chat.donateButton.background-color': '#5bc0de',
+    'floating-chat.donateButton.text-color': '#323842'
+  });
+</script>
