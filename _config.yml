@@ -1,19 +1,19 @@
-title: ""
-description: "A constellation of projects, analytics, and process design."
-remote_theme: "mmistakes/minimal-mistakes@4.28.1"
-minimal_mistakes_skin: "default"
-
 # Site settings
-locale: "en-US"
+title: ""
 url: "https://bmcauley.github.io"
-baseurl: ""   # IMPORTANT: must be empty for username.github.io sites
+baseurl: ""
+description: "A constellation of projects, analytics, and process design."
+locale: "en-US"
 show_excerpts: false
 paginate: false
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"
+include:
+  - _pages
 plugins:
   - jekyll-include-cache
 
@@ -29,15 +29,13 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
       url: "https://linkedin.com/in/bennett-mcauley/"
-
-
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bmcauley"
 
 # Defaults
 defaults:
+  # _posts
   - scope:
       path: ""
       type: posts
@@ -48,13 +46,10 @@ defaults:
 
   - scope:
       path: ""
+      type: pages
     values:
       layout: single
       author_profile: true
-
-  - scope:
-      path: ""
-    values:
       show_post_nav: false
 
   # _portfolio
@@ -65,7 +60,9 @@ defaults:
       layout: single
       author_profile: true
 
-
+portfolio:
+  output: true
+  permalink: /:collection/:path/
 
 # Removing feed
 atom_feed:
