@@ -60,10 +60,12 @@ defaults:
       layout: single
       author_profile: true
 
-portfolio:
-  output: true
-  permalink: /:collection/:path/
+# Collection settings
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
 
-# Removing feed
+# Removing RSS feed
 atom_feed:
   hide: true
