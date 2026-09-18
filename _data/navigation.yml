@@ -4,8 +4,10 @@ main:
     url: "/"
   - title: "About"
     url: /about/
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "Services"
-    url: /services/
+  - title: "Skills"
+    url: /skills/
+  # - title: "Portfolio"
+  #   url: /portfolio/
+  # - title: "Services"
+  #   url: /services/
 
