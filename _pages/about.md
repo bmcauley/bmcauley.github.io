@@ -19,13 +19,14 @@ classes: wide
   <input type="radio" id="tab3" name="tabs">
   <label for="tab3">16PF</label>
 
+
   <div class="tab-content" id="content1">
     <h3>Big Five (OCEAN) Model</h3>
     <canvas id="big5-chart"></canvas>
 
   <div class="notice--info">
-    Curious about this assessment?  
-    <a href="/about/big5">Learn more here.</a>
+    Curious about this model?  
+    <a href="https://en.wikipedia.org/wiki/Big_Five_personality_traits">Learn more here.</a> Curious about this assessment? <a href="https://drj60472.virtualave.net/IPIP/ipipneo120.htm">Discover your profile here</a>. <i>(It looks minimal but this is the official source for the research-backed and non-proprietary assessment)</i>
   </div>
   </div>
 
@@ -76,10 +77,9 @@ classes: wide
   <div class="tab-content" id="content3">
     <h3>Cattell's 16 Personality Factors</h3>
       <canvas id="pf16-chart"></canvas>
-    <div class="notice--info"> Curious about this assessment? <a href="https://www.viacharacter.org/">Discover your strengths here!</a>
+    <div class="notice--info"> Curious about this assessment? <a href="https://openpsychometrics.org/tests/16PF.php">Discover your factors here!</a>
   </div>
   </div>
-
 
 </div>
 
@@ -251,12 +251,12 @@ new Chart(document.getElementById('pf16-chart'), {
 
 /* TAB LABELS */
 .custom-tabs label {
-  display: inline-block;        /* ← THIS fixes the vertical stacking */
+  display: inline-block;
   padding: 10px 16px;
   margin-right: 4px;
   cursor: pointer;
-  background: #2d2d2d;          /* dark background */
-  color: #f0f0f0;               /* readable light text */
+  background: #2d2d2d;
+  color: #f0f0f0;
   border-radius: 6px 6px 0 0;
   font-weight: 600;
 }
@@ -270,8 +270,8 @@ new Chart(document.getElementById('pf16-chart'), {
 .tab-content {
   display: none;
   padding: 20px;
-  background: #f0f0f0;          /* dark panel */
-  color: #1e1e1e;               /* readable text */
+  background: #f0f0f0;
+  color: #1e1e1e;
   border: 1px solid #959595;
   border-top: none;
   border-radius: 0 0 6px 6px;
@@ -288,8 +288,8 @@ new Chart(document.getElementById('pf16-chart'), {
 #tab1:checked + label,
 #tab2:checked + label,
 #tab3:checked + label {
-  background: #5e4cff;          /* active tab background */
-  color: #ffffff;               /* readable active text */
+  background: #5e4cff;
+  color: #ffffff;
   /* border-bottom: 1px solid #ffffff;*/
 }
 </style>
