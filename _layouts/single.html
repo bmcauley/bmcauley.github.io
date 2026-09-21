@@ -50,6 +50,7 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
+        {% include carousel.html height="50" unit="%" duration="7" number="1" %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
@@ -84,5 +85,3 @@ layout: default
     {% include page__related.html locale=locale posts=site.posts %}
   {% endif %}
 </div>
-
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
