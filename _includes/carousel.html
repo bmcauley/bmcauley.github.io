@@ -65,9 +65,9 @@
     {% for item in page.carousels[number].images %}
 
     .carousel__activator:nth-of-type({{ forloop.index }}):checked~.carousel__track {
-        -webkit-transform: translateX(- {{ forloop.index0 }}00%);
+        -webkit-transform: translateX(-{{ forloop.index0 }}00%);
 
-        transform: translateX(- {{ forloop.index0 }}00%);
+        transform: translateX(-{{ forloop.index0 }}00%);
     }
 
     .carousel__activator:nth-of-type({{ forloop.index }}):checked~.carousel__slide:nth-of-type({{ forloop.index }}) {
