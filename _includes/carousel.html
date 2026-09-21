@@ -204,7 +204,7 @@
         background-color: #fafafa;
     }
 
-    { % for item in page.carousels[number].images %}
+    {% for item in page.carousels[number].images %}
 
     .carousel__slide:nth-of-type({{ forloop.index }}),
     .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index}}) {
