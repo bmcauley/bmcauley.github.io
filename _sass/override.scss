@@ -136,3 +136,60 @@
   font-weight: 700;
   color: #5e4cff; /* cosmic purple */
 }
+
+.timeline {
+  position: relative;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  border-left: 2px solid #e0e0e0;
+}
+
+.timeline-section {
+  margin: 2rem 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.entry {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  position: absolute;
+  left: -11px;
+  top: 6px;
+  height: 14px;
+  width: 14px;
+  background: #4a4a4a;
+  border-radius: 50%;
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.meta {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.desc {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.desc a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+.desc a:hover {
+  border-bottom: 1px solid #0066cc;
+}
