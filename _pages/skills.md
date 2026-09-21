@@ -8,6 +8,8 @@ header:
 classes: wide
 ---
 
+<p>This is a static sample of my core competencies across various disciplines. I am currently developing a solution to create a dynamic, interactive skills ontology/taxonomy to represent my knowledge, skills, and abilities.</p>
+
 <div class="skill-section">
 
   <!-- HR Systems -->
