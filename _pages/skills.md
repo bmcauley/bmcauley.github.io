@@ -8,8 +8,6 @@ header:
 classes: wide
 ---
 
-Skills taxonomy WIP
-
 <div class="skill-section">
 
   <!-- HR Systems -->
