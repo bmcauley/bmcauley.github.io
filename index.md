@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: true
-title: "Welcome!"
+title: " "
 header:
   image: "/assets/images/Portfolio_Banner.png"
 show_posts: false
@@ -20,58 +20,53 @@ carousels:
 <div class="timeline">
 
   <!-- Education -->
-  <h2 class="timeline-section">Education</h2>
+  <h3 class="timeline-section">Education</h3>
 
   <div class="entry">
-    <div class="dot"></div>
     <div class="content">
-      <h3>🎓 Master of Statistics</h3>
-      <p class="meta">North Carolina State University • Conferred May 2023</p>
+      <h4>🎓 Master of Statistics</h4>
+      <p class="meta">North Carolina State University • May 2023</p>
     </div>
   </div>
 
   <div class="entry">
-    <div class="dot"></div>
     <div class="content">
-      <h3>🎓 Bachelor of Science in Mathematics</h3>
+      <h4>🎓 Bachelor of Science in Mathematics</h4>
       <p class="meta">
-        North Carolina Central University • CEMA Concentration, Data Science Track • Conferred Dec 2018
+        North Carolina Central University • CEMA Concentration, Data Science Track • Dec 2018
       </p>
     </div>
   </div>
 
   <!-- Activities & Publications -->
-  <h2 class="timeline-section">Activities & Publications</h2>
+  <h3 class="timeline-section">Activities & Publications</h3>
 
   <div class="entry">
-    <div class="dot"></div>
     <div class="content">
-      <h3>🎤 Motivational Moment Speaker</h3>
+      <h4>🎤 Motivational Moment Speaker</h4>
       <p class="meta">NC TECH Association Diversity & Inclusion Summit • Mar 2024</p>
       <p class="desc">
-        <a href="YOUR_LINK_HERE" target="_blank">Belonging — What Does That Mean?</a>
+        <a href="https://www.nctech.org/_files/_pdf/Speaker Presentations/DISummit-McAuley.pdf">Belonging — What Does That Mean?</a>
       </p>
     </div>
   </div>
 
   <div class="entry">
-    <div class="dot"></div>
     <div class="content">
-      <h3>📝 Published Author</h3>
+      <h4>📝 Published Author</h4>
       <p class="meta">SAS Curiosity (Opinions Series) • June 2022</p>
       <p class="desc">
-        <a href="YOUR_LINK_HERE" target="_blank">The Uncounted Community: Missing LGBTQ+ Data</a>
+        <a href="https://curiosity.sas.com/en/opinions/missing-lgbtq-data.html">The Uncounted Community: Missing LGBTQ+ Data</a>
       </p>
     </div>
   </div>
 
   <div class="entry">
-    <div class="dot"></div>
     <div class="content">
-      <h3>📘 Contributing Author</h3>
+      <h4>📘 Contributing Author</h4>
       <p class="meta">Intelligence at the Edge: Using SAS with the Internet of Things • Feb 2020</p>
       <p class="desc">
-        <a href="YOUR_LINK_HERE" target="_blank">Chapter 3 Preview</a>
+        <a href="https://www.oreilly.com/library/view/intelligence-at-the/9781642957785/Chapter_3.xhtml">Preview</a>
       </p>
     </div>
   </div>
