@@ -15,5 +15,3 @@ carousels:
       - image: /assets/images/IG2.jpg
       - image: /assets/images/IG3.jpg
 ---
-
-{% include carousel.html number=0 %}
