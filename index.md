@@ -44,8 +44,7 @@ carousels:
   <div class="entry">
     <div class="content">
       <h4>🎤 Motivational Moment Speaker</h4>
-      <p class="meta">NC TECH Association Diversity & Inclusion Summit • Mar 2024</p>
-      <p class="desc">
+      <p class="meta">NC TECH Association Diversity & Inclusion Summit • Mar 2024<br />
         <a href="https://www.nctech.org/_files/_pdf/Speaker Presentations/DISummit-McAuley.pdf">Belonging — What Does That Mean?</a>
       </p>
     </div>
