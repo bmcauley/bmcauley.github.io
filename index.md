@@ -29,7 +29,9 @@ carousels:
   <div class="entry">
     <div class="content">
       <h6>Master of Statistics</h6>
-      <p class="meta">North Carolina State University • May 2023</p>
+      <p class="meta">North Carolina State University • May 2023<br /> 
+      Capstone: <a href="https://github.com/kesettle/Sis-Are-You-Okay/blob/main/Introduction.pdf">SEM & Factor Analysis of Psychological Well‑Being Among Black Women in the U.S.</a>
+      </p>
     </div>
   </div>
 
@@ -49,7 +51,7 @@ carousels:
     <div class="content">
       <h6>Motivational Moment Speaker</h6>
       <p class="meta">NC TECH Association Diversity & Inclusion Summit • Mar 2024<br />
-        <a href="https://www.nctech.org/_files/_pdf/Speaker Presentations/DISummit-McAuley.pdf">Belonging — What Does That Mean? </a>
+        Slide Deck: <a href="https://www.nctech.org/_files/_pdf/Speaker Presentations/DISummit-McAuley.pdf">Belonging — What Does That Mean? </a>
       (Recording to come soon!)</p>
     </div>
   </div>
