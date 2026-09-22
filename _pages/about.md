@@ -8,7 +8,7 @@ header:
 classes: wide
 ---
 
-<p>This page highlights the results of research‑backed assessments I've taken that reflect I think, collaborate, and make decisions. They’re not personality labels, but data-driven insights into my strengths, tendencies, and the environments where I do my best work. If you’re curious about how I show might up in teams or approach complex problems, these charts offer a clear and consistent snapshot.</p>
+<p>This page highlights the results of research‑backed assessments I've taken that reflect how I think, collaborate, and make decisions. They’re not personality labels, but data-driven insights into my strengths, tendencies, and the environments where I do my best work. If you’re curious about how I show might up in teams or approach complex problems, these charts offer a clear and consistent snapshot.</p>
 
 <div class="custom-tabs">
 

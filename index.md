@@ -17,7 +17,7 @@ carousels:
       - image: /assets/images/IG4.jpeg
 ---
 
-<p>Well met! I’m Bennett, a People Analytics and Organizational Effectiveness professional who gets out of bed each day to shape workplaces where people can thrive. This site is a snapshot of my work, my journey, and the projects I’m proud of (work in progress). Feel free to explore my publications here and the other pages for more information.</p>
+<p>Hello! My name Bennett (he/him), a People Analytics and Organizational Effectiveness professional who gets out of bed each day to shape workplaces where people can thrive. This site is a snapshot of my work, my journey, and the projects I’m proud of (work in progress). Feel free to explore my publications below and the other pages for more information.</p>
 
 <div class="timeline">
 
