@@ -16,6 +16,13 @@ languages:
     title: *siteTitle
     params:
       description: A constellation of analytics, projects, and process design.
+    menus:
+      main:
+        - identifier: about
+          name: About
+          pageRef: /about
+          weight: 20
+  
   zh:
     label: 简体中文
     locale: zh-CN
