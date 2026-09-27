@@ -1,9 +1,8 @@
 # OINK Starter — the only site configuration file.
-# Change the two marked values first; everything else builds as-is.
-
-title: &siteTitle Project Name # CHANGE ME: one shared title for every language
-baseURL: https://example.org/ # CHANGE ME: canonical production URL
+title: &siteTitle Bennett McAuley # CHANGE ME: one shared title for every language
+baseURL: https://bmcauley.github.io # CHANGE ME: canonical production URL
 defaultContentLanguage: en
+disableLanguages: [zh, fr]
 enableGitInfo: true
 enableRobotsTXT: true
 enableEmoji: true
@@ -16,22 +15,17 @@ languages:
     weight: 1
     title: *siteTitle
     params:
-      description: Documentation, updates, and guides for your project.
+      description: A constellation of analytics, projects, and process design.
   zh:
     label: 简体中文
     locale: zh-CN
     weight: 2
-    title: *siteTitle
     hasCJKLanguage: true
-    params:
-      description: 你的项目文档、动态与指南。
+
   fr:
     label: Français
     locale: fr-FR
     weight: 3
-    title: *siteTitle
-    params:
-      description: Documentation, actualités et guides de votre projet.
 
 # OINK's Markdown components depend on these three Goldmark settings.
 markup:
@@ -53,9 +47,9 @@ outputs:
 params:
   offline_search: true
   copyright:
-    authors: Project contributors
+    authors: Bennett McAuley
     from_year: 2026
-  footer_center_info: ''
+  footer_center_info: 'Powered by [Oink](https://oink.pgsty.com)'
   ui:
     dark_mode: true
     section_index: cards
@@ -64,7 +58,7 @@ params:
     sidebar_icon_policy: groups
     backlinks: true
     # theme_color: '#245f94'
-    # typography: system
+    typography: system
     # image_zoom: true
     # share: [mastodon, linkedin, email, copy]
     # feedback:
@@ -72,8 +66,8 @@ params:
     #   reasons: true
 
   # Optional repository links. Uncomment after creating your own repository.
-  # github_repo: https://github.com/OWNER/REPOSITORY
-  # github_branch: main
+  github_repo: https://github.com/bmcauley/bmcauley.github.io
+  github_branch: main
 
   # Optional brand assets. The starter already supplies a neutral logo.
   # logo: icons/logo.svg

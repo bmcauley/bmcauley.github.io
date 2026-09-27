@@ -2,14 +2,15 @@ sections: [hero, cards, cta]
 
 hero:
   align: center
-  eyebrow: Open-source project starter
+  eyebrow: Data Analyst & EX Advocate
   title_lines:
-    - words: [{ text: Your project. }]
-    - words: [{ text: Clearly documented. }]
-  lead: A ready-to-edit home for documentation, project updates, and long-form guides.
-  actions:
-    - { label: Read the docs, url: docs/, icon: fa-solid fa-book, style: primary }
-    - { label: Follow the tutorial, url: book/, icon: fa-solid fa-arrow-right, style: ghost }
+    - words: [{ text: Insight. }]
+    - words: [{ text: Impact. }]
+    - words: [{ text: Integrity.}]
+  lead: _Championing for workplaces rooted in transparency, justice, and accountability._
+  # actions:
+  #   - { label: Read the docs, url: docs/, icon: fa-solid fa-book, style: primary }
+  #   - { label: Follow the tutorial, url: book/, icon: fa-solid fa-arrow-right, style: ghost }
 
 cards:
   eyebrow: Start with structure
@@ -29,9 +30,9 @@ cards:
       icon: fa-solid fa-graduation-cap
       url: book/
 
-cta:
-  title: Make this starter yours.
-  text: Change the project name and URL, replace the sample copy, and publish.
-  label: Get started
-  url: docs/get-started/
-  style: primary
+# cta:
+#   title: Make this starter yours.
+#   text: Change the project name and URL, replace the sample copy, and publish.
+#   label: Get started
+#   url: docs/get-started/
+#   style: primary
