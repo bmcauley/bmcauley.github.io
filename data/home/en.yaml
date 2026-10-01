@@ -2,7 +2,7 @@ sections: [hero, cards]
 
 hero:
   align: center
-  eyebrow: Data Analyst & EX Advocate
+  eyebrow: Work in progress
   title_lines:
     - words: [{ text: Insight. }]
     - words: [{ text: Impact. }]
@@ -13,13 +13,13 @@ hero:
   #   - { label: Follow the tutorial, url: book/, icon: fa-solid fa-arrow-right, style: ghost }
 
 cards:
-  eyebrow: Welcome!
+  #eyebrow: Welcome!
   title: 
-  columns: 2
-#   items:
-#     - title: Blog
-#       desc: Publish posts, design notes, and release announcements.
-#       icon: fa-solid fa-pen-nib
+  columns: 1
+  items:
+    - title: Notice
+      desc: I am currently overhauling my site and portfolio. Please check back later!
+      icon: fa-solid fa-pen-nib
 #       url: blog/
 #     - title: Docs
 #       desc: Organize reference material as Introduction, Get Started, Tutorial, and Reference.
